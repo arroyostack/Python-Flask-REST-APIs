@@ -1,5 +1,5 @@
 # Step 1 is to install the requirement file: pip3 install pip3 install -r requirements.txt
-# Then import flask and flask restfull
+# Then import flask and flask restful
 from flask import Flask
 from flask_restful import Api, Resource
 
