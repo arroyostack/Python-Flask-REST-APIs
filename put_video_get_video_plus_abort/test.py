@@ -11,6 +11,7 @@ BASE = "http://127.0.0.1:5000/"
 # Now we have set the parameters as required in the put function at main.py
 # response = requests.put(BASE + "video/1", {"likes": 10, "name": "Sally skating in Florida", "views": 100000})
 # print(response.json())
-
+# input()
 response = requests.get(BASE + "video/5")
 print(response.json())
+input()
